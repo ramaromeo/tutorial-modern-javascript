@@ -1,6 +1,8 @@
 /* ​‌‍‌⁡⁢⁣⁢Array di JavaScript⁡​ */
 
-// ⁡⁣⁣⁢Apa Itu Array?⁡, ⁡⁣⁢⁢Array adalah struktur data yang digunakan untuk menyimpan koleksi elemen, seperti angka atau string, dalam satu variabel. Di JavaScript, array dapat menyimpan berbagai tipe data sekaligus dan memiliki indeks yang dimulai dari 0⁡.
+// ⁡⁣⁣⁢Apa Itu Array?⁡, ⁡⁣⁢⁢Array adalah struktur data yang digunakan untuk menyimpan koleksi elemen, 
+seperti angka atau string, dalam satu variabel. Di JavaScript, array dapat menyimpan berbagai tipe data sekaligus
+dan memiliki indeks yang dimulai dari 0⁡.
 
 //⁡⁣⁣⁢ Membuat Array⁡
 
@@ -17,18 +19,18 @@
     // console.log(fruits[2]) //manggo
 
 //  Menambah atau Mengubah Elemen Array
-    fruits[3] = "Strawberry"
-    fruits[0] = "Orange"
+    fruits[3] = "Strawberry"   //["apple", "banana", "mango", "Strawberry"]
+    fruits[0] = "Orange"       //["Orange", "banana", "mango", "Strawberry"]
     // console.log(fruits)
 
 
 // ⁡⁣⁣⁢Manipulasi Array⁡ 
 
     let numbers = [1,2,3]
-    // numbers.push(4)
-    // numbers.pop() 
-    // numbers.shift()
-    // numbers.unshift(5)
+    // numbers.push(4)        //menambahkan element ke akhir array [1,2,3,4]
+    // numbers.pop()          //menghapus element terakhir array [1,2,3]
+    // numbers.shift()        //menghapus element pertama array [2,3]
+    // numbers.unshift(5)     //menambah element ke awal array [5,2,3]
     // console.log(numbers)
 
     let numbers2 = [4,5]
@@ -39,7 +41,6 @@
     console.log(newNumber.indexOf(10))
     console.log(newNumber.includes(5))
     // console.log(newNumber.slice(2,4))
-
 
 // Multidimensional Array (Array of Arrays)
 let matrix = [
